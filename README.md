@@ -89,6 +89,22 @@ A criação de um website para o Laboratório de Sensoriamento Remoto Agrícola 
 > RNF05. Hospedagem e domínio próprio (pode ser feito após protótipo).
 
 # Tabela descritiva das sprints com as colunas
+| ID     | Nome da Tarefa                                    | Pontos | Responsável             | Diciplina | Requisitos Atendidos|
+|--------|---------------------------------------------------|------- |------------------------ |-----------|---------------------|
+| **DD-001** | Definir identidade visual do site             | 3      | Todos                   | DD        | RNF06               |
+| **DD-002** | Criar protótipo da página inicial             | 3      | Pedro                   | DD        | RF-01               |
+| **DD-003** | Cards em destaque na home (notícias, projetos, publicações). | 3      | Pedro    | DD        | RF-01               |
+| **DD-004** | Criar  página "Sobre" – objetivo e foco do laboratório.| 3      | João Augusto   | DD        | RF-02               |
+| **DD-005** | Criar página de membros com nome, foto, função e descrição.| 3      |Ariana      | DD        | RF-03               |
+| **DD-006** | Criar  página de oportunidades (estágio, IC, pós-graduação).| 3      | Ariana    | DD        | RF-04               |
+| **DD-007** | Criar página de listagem de projetos (título, resumo, ano, status, equipe).| 3   | Felipe| DD| RF-05               |
+| **DD-008** | Criar página de publicação de notícias (título, data, imagem, texto).| 3      | Wlliam Max| DD | RF-06             |
+| **DD-009** | Criar protótipo de lista de publicações científicas.| 3      | Eloah             | DD | RF-07                      |
+| **DD-0010** | Criar protótipo de formulário de contato funcional. | 3      | Ariana           | DD | RF-08                      |
+| **DW-001** | Criar o arquivo HTML                          | 3      | Todos                   | Dw        | RNF06               |
+| **Dw-002** | Aplicar a estilização em CSS                  | 3      | Todos                   | Dw        | RNF06               |
+| **Dw-003** | Aplicar responsividade no CSS                 | 3      | Todos                   | Dw        | RNF06               |
+| **Dw-001** | Aplicação do segundo idioma                   | 3      | Todos                   | Dw        | RNF06               |
 - Periodo da sprints
 - Link para a documentação da sprint
 - Link para o video no youtube do Incremento entregue
