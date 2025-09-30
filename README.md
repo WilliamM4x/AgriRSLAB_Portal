@@ -104,10 +104,11 @@ A criação de um website para o Laboratório de Sensoriamento Remoto Agrícola 
 | **DD-008** | Criar página de publicação de notícias (título, data, imagem, texto).| 3      | DD | RF-06             |
 | **DD-009** | Criar protótipo de lista de publicações científicas.| 2      | DD | RF-07                      |
 | **DD-0010** | Criar protótipo de formulário de contato funcional. | 2     | DD | RF-08                      |
-| **DW-001** | Criar o arquivo HTML                          | 3      | Dw        | RNF06               |
-| **Dw-002** | Aplicar a estilização em CSS                  | 3      | Dw        | RNF06               |
+| **DW-001** | Criar o arquivo HTML para cada página         | 3      | Dw        | RNF06               |
+| **Dw-002** | Aplicar a estilização de cada página em CSS   | 3      | Dw        | RNF06               |
 | **Dw-003** | Aplicar responsividade no CSS                 | 3      | Dw        | RNF06               |
-| **Dw-001** | Aplicação do segundo idioma                   | 3      | Dw        | RNF06               |
+| **Dw-004** | Aplicação do segundo idioma                   | 3      | Dw        | RNF06               |
+| **Dw-005** | Criar componentes em código (Header, footer, botões) | 3      | Dw        | RNF06               |
 - Periodo da sprints
 - Link para a documentação da sprint
 - Link para o video no youtube do Incremento entregue
