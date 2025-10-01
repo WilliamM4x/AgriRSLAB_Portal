@@ -1,40 +1,40 @@
 # Link do Figma
 https://www.figma.com/design/lOquh5Rjs8hRw0eabhfMRE/AGRIRS?t=vFFsgACUIBLXJYoF-0
 
-# Apresentação da 
+# Apresentação da equipe
 A equipe 404 Not Found é constituída de alunos do primeiro semestre do curso de Desenvolvimento de Software Multiplataforma.
 
-1. Ariana Ferreira dos Santos (Desenvolvedora)
-- Git. https.//github.com/arianaferresan
-- Linkedin. https.//br.linkedin.com/in/arianaferreira
-
-2. Pedro Gonçalves Sampaio (Scrum Master)
-- Git. https.//github.com/PedroSmp
-- LinkedIn. https.//www.linkedin.com/in/pedro-sampaio-463a77375
-
-3. João Otávio Nunes de Mesquita (Desenvolvedor)
-- Git. https.//github.com/jotavionm
-- LinkedIn. https.//www.linkedin.com/in/jo%C3%A3o-ot%C3%A1vio-nunes-mesquita/
-
-4. Felipe Faria Machado (Desenvolvedor)
-- Git. https.//github.com/Felipe1781
-- LinkedIn. https.//www.linkedin.com/in/felipefariamachado
-
-5. João Augusto Leal Neto (Desenvolvedor)
-- Git. https.//github.com/lealdev7
-- LinkedIn. https.//www.linkedin.com/in/jo%C3%A3o-leal-558071385/
-
-6. William Max dos Santos Silva Silva (Desenvolvedor)
-- Git. https.//github.com/WilliamM4x
-- LinkedIn. https.//www.linkedin.com/in/william-max-7b8036140/
-
-7. Eloah Sousa da Silva (Project Owner)
+1. Eloah Sousa da Silva (Project Owner)
 - Git. https.//github.com/eloahsousaa
 - LinkedIn. https.//www.linkedin.com/in/eloah-sousa-650038349/
-
-8. Luiza (Desenvolvedora)
-- Git. 
-- LinkedIn. 
+ 
+Pedro Gonçalves Sampaio (Scrum Master)
+- Git. https.//github.com/PedroSmp
+- LinkedIn. https.//www.linkedin.com/in/pedro-sampaio-463a77375
+ 
+Ariana Ferreira dos Santos (Desenvolvedora)
+- Git. https.//github.com/arianaferresan
+- Linkedin. https.//br.linkedin.com/in/arianaferreira
+ 
+Felipe Faria Machado (Desenvolvedor)
+- Git. https.//github.com/Felipe1781
+- LinkedIn. https.//www.linkedin.com/in/felipefariamachado
+ 
+João Augusto Leal Neto (Desenvolvedor)
+- Git. https.//github.com/lealdev7
+- LinkedIn. https.//www.linkedin.com/in/jo%C3%A3o-leal-558071385/
+ 
+João Otávio Nunes de Mesquita (Desenvolvedor)
+- Git. https.//github.com/jotavionm
+- LinkedIn. https.//www.linkedin.com/in/jo%C3%A3o-ot%C3%A1vio-nunes-mesquita/
+ 
+Luiza Gonçales Manchini (Desenvolvedora)
+- Git: https://github.com/Luiza-Manchini
+- LinkedIn: https://www.linkedin.com/in/luiza-manchini-b51a7b336/
+ 
+William Max dos Santos Silva Silva (Desenvolvedor)
+- Git: https.//github.com/WilliamM4x
+- LinkedIn. https.//www.linkedin.com/in/william-max-7b8036140/
 
 # Titulo do projeto
 Website do Laboratório de Sensoriamento Remoto Agrícola do INPE (AgriRS Lab).
@@ -94,21 +94,28 @@ A criação de um website para o Laboratório de Sensoriamento Remoto Agrícola 
 # Tabela descritiva das sprints com as colunas
 | ID     | Nome da Tarefa                                    | Pontos | Diciplina | Requisitos Atendidos|
 |--------|---------------------------------------------------|------- |-----------|---------------------|
-| **DD-001** | Definir identidade visual do site             | 2      | DD        | RNF06               |
-| **DD-002** | Criar protótipo da página inicial             | 3      | DD        | RF-01               |
-| **DD-003** | Cards em destaque na home (notícias, projetos, publicações). | 2      | DD        | RF-01               |
-| **DD-004** | Criar  página "Sobre" – objetivo e foco do laboratório.| 2      | DD        | RF-02               |
-| **DD-005** | Criar página de membros com nome, foto, função e descrição.| 3      | DD        | RF-03               |
-| **DD-006** | Criar  página de oportunidades (estágio, IC, pós-graduação).| 2      | DD        | RF-04               |
-| **DD-007** | Criar página de listagem de projetos (título, resumo, ano, status, equipe).| 2   |  DD| RF-05               |
-| **DD-008** | Criar página de publicação de notícias (título, data, imagem, texto).| 3      | DD | RF-06             |
-| **DD-009** | Criar protótipo de lista de publicações científicas.| 2      | DD | RF-07                      |
-| **DD-0010** | Criar protótipo de formulário de contato funcional. | 2     | DD | RF-08                      |
-| **DW-001** | Criar o arquivo HTML para cada página         | 3      | Dw        | RNF06               |
-| **Dw-002** | Aplicar a estilização de cada página em CSS   | 3      | Dw        | RNF06               |
-| **Dw-003** | Aplicar responsividade no CSS                 | 3      | Dw        | RNF06               |
-| **Dw-004** | Aplicação do segundo idioma                   | 3      | Dw        | RNF06               |
-| **Dw-005** | Criar componentes em código (Header, footer, botões) | 3      | Dw        | RNF06               |
+| **DD-001** | Definir identidade visual do site             | 5      | DD        | RNF06               |
+| **DD-002** | Criar protótipo da página inicial             | 8      | DD        | PA-01              |
+| **DD-003** | Cards em destaque na home (notícias, projetos, publicações). | 9      | DD        | PA-02               |
+| **DD-004** | Criar  página "Sobre" – objetivo e foco do laboratório.| 4      | DD        | PA-04               |
+| **DD-005** | Criar página de membros com nome, foto, função e descrição.| 6      | DD        | PA-05               |
+| **DD-006** | Criar  página de oportunidades (estágio, IC, pós-graduação).| 3      | DD        | PA-06               |
+| **DD-007** | Criar página de listagem de projetos (título, resumo, ano, status, equipe).| 1   |  DD| PA-07              |
+| **DD-008** | Criar página de publicação de notícias (título, data, imagem, texto).| 7     | DD | PA-08             |
+| **DD-009** | Criar protótipo de lista de publicações científicas.| 4      | DD | PA-09                      |
+| **DD-0010** | Criar protótipo de formulário de contato funcional. | 2     | DD | RF-010                      |
+| **DW-001** | Criar o arquivo HTML para página inicial        | 10      | Dw        | PA-01               |
+| **Dw-002** | Aplicar a estilização da página inicial em CSS  | 10      | Dw        | PA-01               |
+| **Dw-003** | Criar arquivo HTML para a página de notícias                | 9      | Dw        | PA-08               |
+| **Dw-004** | Aplicar a estilização da página de notícias em CSS                 | 9      | Dw        | PA-08               |
+| **Dw-005** | Criar o arquivo HTML para página de projetos | 3      | Dw        | PA-07               |
+| **Dw-006** | Criar a estilização para página de projetos | 3      | Dw        | PA-07               |
+| **Dw-007** | Criar o arquivo HTML para página de públicações | 3      | Dw        | PA-09               |
+| **Dw-008** | Criar a estilização para a página de publicações | 3      | Dw        | PA-09               |
+| **Dw-009** | Criar o arquivo HTML para página de sobre | 3      | Dw        | PA-04               |
+| **Dw-0010** | Criar a estilização da página sobre  | 3      | Dw        | PA-04               |
+| **ES-001** | Criar um estudo de caso do projeto  | 10      | ES        |                |
+| **Dw-002** | Criar diagrama de caso do projeto  | 10      | ES        |                |
 - Periodo da sprints
 - Link para a documentação da sprint
 - Link para o video no youtube do Incremento entregue

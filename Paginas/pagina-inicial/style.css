@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+
+/* VARIÁVEIS CSS */
+:root {
+    --cor-verde-primaria: #36794E;
+    --cor-verde-secundaria: #55A357; 
+    --cor-azul-primaria: #0F5289;
+    --cor-azul-secundaria: #487DB4; 
+    --cor-azul-terciaria: #DDF1FB;
+    --cor-footer: #604639;
+    --cor-fundo: #F8F9FA; /* BACKGROUD COLOR */
+    --cor-fonte:#252525;
+
+    --fonte-principal: 'Roboto', sans-serif;
+    --fonte-titulos: 'Nunito', sans-serif;
+}
+
+
+/* ESTILOS GERAIS E RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: var(--fonte-principal);
+    color: var(--cor-texto-escuro);
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: var(--fonte-titulos);
+    color: var(--cor-texto-escuro);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* 1. CABEÇALHO E NAVEGAÇÃO */
+
+.header {
+    background-color: var(--cor-verde-escuro);
+    color: var(--cor-texto-claro);
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.search-contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-contact input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.contact-btn {
+    background-color: #38b456; /* Cor do botão Fale Conosco */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/* 2. HERO SECTION */
+
+.anuncio {
+    height: 50vh;
+    background: url('https://via.placeholder.com/1500x800/228B22/004d00?text=Background+Image+Forest') no-repeat center center/cover; /* Placeholder Imagem */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--cor-texto-claro);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.anuncio h1 {
+    font-size: 48px;
+    color: var(--cor-texto-claro);
+    margin-bottom: 10px;
+}
+
+.anuncio p {
+    font-size: 18px;
+    max-width: 600px;
+}
+
+
+/* 3. SEÇÃO ÁREAS DE PESQUISA (CARDS AZUIS) */
+
+.section-areas {
+    padding: 50px 80px;
+    background-color: var(--cor-fundo);
+    color: var(--cor-fonte);
+}
+
+
+.section-areas h2 {
+    text-align: start;
+    margin-bottom: 5px;
+}
+
+.linha-divisoria{
+    background-color: var(--cor-verde-secundaria);
+    width: 848px;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.areas-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Quatro colunas */
+    gap: 20px;
+}
+
+.area-card-fundo{
+    background-color: var(--cor-azul-primaria);
+    width: 330px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.area-card {
+    background-color: var(--cor-azul-terciaria);
+    color: var(--cor-texto-claro);
+    width: 330px;
+    height: 390px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    /* Estilos para alinhar os 5 itens (o 4 e 5 ficam no centro) */
+}
+
+.areas-grid .area-card:nth-child(4) {
+    grid-column: 2 / span 1;
+}
+.areas-grid .area-card:nth-child(5) {
+    grid-column: 3 / span 1;
+}
+
+
+/* ---------------------------------------------------- */
+/* 4. SEÇÃO PROJETOS EM DESTAQUE (FUNDO VERDE CLARO) */
+/* ---------------------------------------------------- */
+.section-projetos {
+    background-color: var(--cor-verde-claro);
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-projetos .slogan {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.projetos-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.projeto-card {
+    width: 300px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--sombra-leve);
+    border: 2px solid var(--cor-verde-escuro); /* Borda verde */
+}
+
+.projeto-card .placeholder-img {
+    height: 150px;
+    background-color: #A3D8B4; /* Cor de placeholder do mockup */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: var(--cor-verde-escuro);
+}
+
+.projeto-card-footer {
+    padding: 15px;
+}
+
+.projeto-card-footer button {
+    background-color: var(--cor-verde-escuro);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+/* ---------------------------------------------------- */
+/* 5. SEÇÃO NOTÍCIAS (News) */
+/* ---------------------------------------------------- */
+.section-news {
+    padding: 50px 80px;
+}
+
+.section-news h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.news-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Coluna grande e coluna pequena */
+    gap: 30px;
+}
+
+.main-news-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    box-shadow: var(--sombra-leve);
+}
+
+.main-news-card .news-img {
+    width: 50%;
+    height: 300px;
+    background: url('https://via.placeholder.com/600x400/808080/FFFFFF?text=Imagem+Noticia') no-repeat center center/cover;
+}
+
+.main-news-content {
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-news-content h3 {
+     font-size: 20px;
+}
+
+.side-news {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.side-news-item {
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #f5f5f5;
+    box-shadow: var(--sombra-leve);
+}
+
+/* ---------------------------------------------------- */
+/* 6. FOOTER */
+/* ---------------------------------------------------- */
+.footer {
+    background-color: var(--cor-marrom-rodape);
+    color: var(--cor-texto-claro);
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer h3 {
+    color: var(--cor-texto-claro);
+    margin-bottom: 15px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.footer-map .map-placeholder {
+    width: 300px;
+    height: 150px;
+    background-color: #aaa;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 14px;
+}
