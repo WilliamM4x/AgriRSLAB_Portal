@@ -33,8 +33,8 @@ A equipe 404 Not Found é constituída de alunos do primeiro semestre do curso d
 - LinkedIn. https.//www.linkedin.com/in/eloah-sousa-650038349/
 
 8. Luiza (Desenvolvedora)
-- Git. 
-- LinkedIn. 
+- Git. https.//github.com/luiza-manchini
+- LinkedIn. https://www.linkedin.com/in/luiza-manchini-b51a7b336/
 
 # Titulo do projeto
 Website do Laboratório de Sensoriamento Remoto Agrícola do INPE (AgriRS Lab).
