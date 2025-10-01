@@ -1,0 +1,129 @@
+/* Variáveis para cores (opcional, mas recomendado para consistência) */
+:root {
+    --vdEscuro: #36794E;
+    /* verde escuro */
+    --vdClaro: #55A357;
+    /* verde claro */
+
+    --vdClarinho: #E0F9D5;
+    /* verde clarinho */
+
+    --fundo: #F8F9FA;
+    --marrom: #604639;
+
+    --azulEscuro: #0F5289;
+    --azulClaro: #487DB4;
+
+    --cor-texto: #ffffff;
+    /* Texto branco */
+
+    --cor-sombra: rgba(0, 0, 0, 0.3);
+    /* Sombra suave */
+
+    --fonteTitulo: 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: var(--fundo);
+    /* Fundo leve para destacar o card */
+}
+
+.container-projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+    gap: 30px; /* Adiciona um espaço de 30px entre os cards */
+}
+
+.card-projeto {
+    width: 300px;
+    /* Largura fixa, ajuste conforme necessário */
+    background-color: var(--vdClaro);
+    border-radius: 12px;
+    /* Sombra suave e um pouco de profundidade, como no exemplo */
+    box-shadow: 0 10px 20px var(--vdEscuro), 0 6px 6px var(--vdEscuro);
+    overflow: hidden;
+    /* Garante que a imagem siga o border-radius superior */
+}
+
+/* Estilo para a imagem */
+.card-imagem {
+    padding: 15px;
+    /* Padding interno para a borda verde ao redor da imagem */
+}
+
+.card-imagem img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    border: 1.5px solid #000000;
+    /* Borda arredondada na imagem interna */
+    /* Garante que a imagem mantenha o aspecto visual do exemplo (cobertura total) */
+    object-fit: cover;
+}
+
+/* Estilo para o conteúdo (título e resumo) */
+.card-conteudo {
+    /* dir. bot. esq.*/
+    padding: 0 20px 20px 20px;
+    /* Padding ao redor do texto e do botão */
+    color: var(--fundo);
+}
+
+.card-titulo {
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif; /* Adicionado do HTML */
+    /* Tamanho do título */
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.card-resumo {
+    font-size: 0.95rem;
+    font-family: 'Libre Baskerville', serif; /* Adicionado do HTML */
+    /* Tamanho do resumo */
+    margin-bottom: 25px;
+    line-height: 1.5;
+    /* Opacidade para simular o texto "mais claro" do resumo */
+    opacity: 0.9;
+}
+
+/* Estilo para o botão */
+.card-botao {
+    display: block;
+    /* Ocupa a largura total */
+    width: max-content;
+    /* Ocupa apenas o espaço necessário */
+    margin-left: auto;
+    /* Alinha o botão à direita */
+    padding: 10px 25px;
+    background-color: var(--vdClarinho);
+    color: var(--vdEscuro);
+    /* Cor do texto no botão é o verde escuro do card */
+    text-decoration: none;
+    /* Remove o sublinhado */
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    /* Transição suave para o hover */
+    /* Sombra interna sutil para dar o efeito de "elevado" */
+    box-shadow: inset 0 -2px 0 rgba(0, 0.5, 0, 0.5);
+}
+
+/* Efeito de hover no botão */
+.card-botao:hover {
+    background-color: var(--vdEscuro);
+    /* Um tom um pouco mais claro no hover */
+    color: var(--vdClarinho);
+}
