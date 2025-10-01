@@ -36,6 +36,14 @@ William Max dos Santos Silva Silva (Desenvolvedor)
 - Git: https.//github.com/WilliamM4x
 - LinkedIn. https.//www.linkedin.com/in/william-max-7b8036140/
 
+7. Eloah Sousa da Silva (Project Owner)
+- Git. https.//github.com/eloahsousaa
+- LinkedIn. https.//www.linkedin.com/in/eloah-sousa-650038349/
+
+8. Luiza (Desenvolvedora)
+- Git. https.//github.com/luiza-manchini
+- LinkedIn. https://www.linkedin.com/in/luiza-manchini-b51a7b336/
+
 # Titulo do projeto
 Website do Laboratório de Sensoriamento Remoto Agrícola do INPE (AgriRS Lab).
 
