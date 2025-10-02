@@ -171,15 +171,17 @@ a {
 /* 4. SEÇÃO PROJETOS EM DESTAQUE (FUNDO VERDE CLARO) */
 /* ---------------------------------------------------- */
 .section-projetos {
-    background-color: var(--cor-verde-claro);
+    background-color: var(--cor-verde);
     padding: 50px 80px;
     text-align: center;
 }
 
-.section-projetos .slogan {
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 40px;
+.projetos-slogan{
+    font-family: var(--fonte-principal);
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--cor-fonte);
+    text-align: start;
 }
 
 .projetos-grid {
