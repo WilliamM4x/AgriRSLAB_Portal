@@ -5,6 +5,7 @@
 :root {
     --cor-verde-primaria: #36794E;
     --cor-verde-secundaria: #55A357; 
+    --cor-verde-fundo:#e0f9d5;
     --cor-azul-primaria: #0F5289;
     --cor-azul-secundaria: #487DB4; 
     --cor-azul-terciaria: #DDF1FB;
@@ -128,7 +129,7 @@ a {
 
 .linha-divisoria{
     background-color: var(--cor-verde-secundaria);
-    width: 848px;
+    width: 90%;
     height: 5px;
     border-radius: 10px;
     margin-bottom: 60px;
@@ -171,7 +172,7 @@ a {
 /* 4. SEÇÃO PROJETOS EM DESTAQUE (FUNDO VERDE CLARO) */
 /* ---------------------------------------------------- */
 .section-projetos {
-    background-color: var(--cor-verde);
+    background-color: var(--cor-verde-fundo);
     padding: 50px 80px;
     text-align: center;
 }
@@ -190,23 +191,49 @@ a {
     gap: 30px;
 }
 
+.projeto-card-fundo{
+    background-color: var(--cor-verde-primaria);
+    border-radius: 10px;
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+}
 .projeto-card {
-    width: 300px;
-    background-color: white;
-    border-radius: 8px;
+    width: 350px;
+    height: 450px;
+    background-color: var(--cor-verde-secundaria);
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: var(--sombra-leve);
     border: 2px solid var(--cor-verde-escuro); /* Borda verde */
 }
 
-.projeto-card .placeholder-img {
-    height: 150px;
-    background-color: #A3D8B4; /* Cor de placeholder do mockup */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 12px;
-    color: var(--cor-verde-escuro);
+.projeto-texto{
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-fundo);
+    text-align: start;
+    margin-left: 15px;
+}
+
+.projeto-bt-fundo{
+    background-color: var(--cor-verde-primaria);
+    border-radius: 5px;
+    width: 147px;
+    height: 42px;
+    padding: 2px;
+}
+
+.projeto-bt{
+    background-color: var(--cor-verde-fundo);
+    border-radius: 5px;
+    width: 147px;
+    height: 42px;
+    border-color: var(--cor-verde-fundo);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--cor-fonte);
 }
 
 .projeto-card-footer {
