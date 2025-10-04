@@ -122,6 +122,10 @@ A criação de um website para o Laboratório de Sensoriamento Remoto Agrícola 
 | **Dw-008** | Criar a estilização para a página de publicações | 3      | Dw        | PA-09               |
 | **Dw-009** | Criar o arquivo HTML para página de sobre | 3      | Dw        | PA-04               |
 | **Dw-0010** | Criar a estilização da página sobre  | 3      | Dw        | PA-04               |
+| **Dw-0011** | Criar o arquivo HTML para a página membros  | 6      | Dw        | PA-05              |
+| **Dw-0012** | Criar a estilização  para a página membros  | 6      | Dw        | PA-05              |
+| **Dw-0013** | Criar o arquivo em HTML para a página de oportunidades  | 8     | Dw        | PA-06              |
+| **Dw-0013** | Criar a estilização para a página de oportunidades  | 8     | Dw        | PA-06              |
 | **ES-001** | Criar um estudo de caso do projeto  | 10      | ES        |                |
 | **Dw-002** | Criar diagrama de caso do projeto  | 10      | ES        |                |
 - Periodo da sprints
