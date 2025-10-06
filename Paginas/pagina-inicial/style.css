@@ -259,9 +259,20 @@ a {
     padding: 50px 80px;
 }
 
-.section-news h2 {
-    text-align: center;
-    margin-bottom: 40px;
+.news-title {
+    font-family: var(--fonte-principal);
+    font-size: 30px;
+    font-weight: 500;
+    text-align: start;
+    margin-bottom: 5px;
+}
+
+.linha-divisoria-news{
+    background-color: var(--cor-azul-primaria);
+    width: 90%;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 60px;
 }
 
 .news-layout {
@@ -271,8 +282,8 @@ a {
 }
 
 .main-news-card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    border: 2px solid var(--cor-azul-primaria);
+    border-radius: 10px;
     overflow: hidden;
     display: flex;
     box-shadow: var(--sombra-leve);
