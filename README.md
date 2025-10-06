@@ -125,7 +125,7 @@ A criação de um website para o Laboratório de Sensoriamento Remoto Agrícola 
 | **Dw-0011** | Criar o arquivo HTML para a página membros  | 6      | Dw        | PA-05              |
 | **Dw-0012** | Criar a estilização  para a página membros  | 6      | Dw        | PA-05              |
 | **Dw-0013** | Criar o arquivo em HTML para a página de oportunidades  | 8     | Dw        | PA-06              |
-| **Dw-0013** | Criar a estilização para a página de oportunidades  | 8     | Dw        | PA-06              |
+| **Dw-0014** | Criar a estilização para a página de oportunidades  | 8     | Dw        | PA-06              |
 | **ES-001** | Criar um estudo de caso do projeto  | 10      | ES        |                |
 | **ES-002** | Criar diagrama de caso do projeto  | 10      | ES        |                |
 
