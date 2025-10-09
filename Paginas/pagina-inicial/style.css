@@ -29,12 +29,12 @@
 
 body {
     font-family: var(--fonte-principal);
-    color: var(--cor-texto-escuro);
+    color: var(--cor-fonte);
     line-height: 1.6;
 }
 
 h1, h2, h3 {
-    font-family: var(--fonte-titulos);
+    font-family: var(--fonte-principal);
     color: var(--cor-texto-escuro);
 }
 
@@ -141,7 +141,7 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 30px;
-    max-width: 1200px;
+    
     justify-content: center;
 }
 
@@ -154,22 +154,22 @@ a {
 
 .area-card {
     background-color: var(--cor-azul-terciaria);
-    color: var(--cor-texto-claro);
+    color: var(--cor-fonte);
     width: 330px;
     height: 390px;
     padding: 20px;
     border-radius: 10px;
     margin-left: 10px;
     margin-bottom: 20px;
-    /* Estilos para alinhar os 5 itens (o 4 e 5 ficam no centro) */
+    text-align: start;
 }
 
-.areas-grid .area-card:nth-child(4) {
-    grid-column: 2 / span 1;
+.area-card p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
 }
-.areas-grid .area-card:nth-child(5) {
-    grid-column: 3 / span 1;
-}
+
 
 
 /* ---------------------------------------------------- */
@@ -212,6 +212,14 @@ a {
     border: 2px solid var(--cor-verde-escuro); /* Borda verde */
 }
 
+.projeto-img{
+    width: 320PX;
+    height: 200PX;
+    background-color: var(--cor-verde-fundo);
+    margin: 15px;
+    border-radius: 5px;
+}
+
 .projeto-texto{
     font-family: var(--fonte-principal);
     font-size: 20px;
@@ -226,7 +234,15 @@ a {
     border-radius: 5px;
     width: 147px;
     height: 42px;
-    padding: 2px;
+    padding: 3px; /*EFEITO DE BORDA*/
+    margin-left: 20px;
+    display: flex; /* Transforma o contêiner em um flex container */
+    justify-content: flex-end; /* Alinha os itens para o início (esquerda) */
+    /* align-items: center; */ /* Opcional: Se houver outros itens e você quiser alinhá-los verticalmente */
+    /* position: absolute; */ /* Se você quiser posicioná-lo em relação ao container verde */
+    /* bottom: 20px; */
+    /* left: 20px; */
+
 }
 
 .projeto-bt{
@@ -234,10 +250,10 @@ a {
     border-radius: 5px;
     width: 147px;
     height: 42px;
-    border-color: var(--cor-verde-fundo);
     font-family: var(--fonte-principal);
     font-weight: 600;
     color: var(--cor-fonte);
+    border: none;
 }
 
 .projeto-card-footer {
