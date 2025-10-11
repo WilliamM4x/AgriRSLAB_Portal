@@ -37,7 +37,10 @@ Todas as entregas serão realizadas conforme os prazos acordados com o cliente. 
 
 </div>
 
-**Legenda:** ✅ Finalizada • 🚧 Em Progresso • — Não iniciado
+**Legenda:**
+- ✅ **Finalizada**
+- 🚧 **Em Progresso**
+- `—` **Não iniciado**
 
 A apresentação da Sprint 1 em vídeo pode ser acessada [aqui](https://youtu.be/8NwBtAC9zXE).
 
@@ -91,7 +94,7 @@ A apresentação da Sprint 1 em vídeo pode ser acessada [aqui](https://youtu.be
 
 > RNF05. Hospedagem e domínio próprio (pode ser feito após protótipo).
 
-### Tabela descritiva das sprints com as colunas
+## Tabela descritiva das sprints com as colunas
 
 | ID       | Nome da Tarefa                                              | Pontos | Disciplina | Requisitos Atendidos |
 |----------|-------------------------------------------------------------|:------:|:----------:|----------------------|
