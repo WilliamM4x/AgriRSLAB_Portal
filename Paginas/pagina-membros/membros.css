@@ -5,14 +5,12 @@
     --cor-azul-verso: #0F5289;
     --cor-amarelo-ver: #D3D840;
     --AZUL1: #487DB4;
-
+    --cor-verde-claro: #E0F9D5;
 }
 
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    line-height: normal;
     background-color: #f0f2f5;
     color: #333;
 }
@@ -23,12 +21,7 @@ body {
     align-items: center;
     padding: 15px 30px;
     background-color: var(--cor-verde-principal);
-    border-bottom: 1px groove #55A357;
-}
-
-/* BANNER JUNTE-SE AO TIME */
-.junte-time {
-    background-color: #D3D840;
+    border-bottom: 1px groove var(--cor-verde-principal);
 }
 
 .header .logo img {
@@ -42,24 +35,69 @@ body {
     font-weight: bold;
 }
 
+.junte-time {
+    background-color: #E0F9D580;
+    color: #333;
+    padding: 30px 0;
+    text-align: left;
+}
+
+.junte-time h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 0;
+    color: #000;
+}
+
+.junte-time h3 {
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 1333px;
+}
+
+.junte-time .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: var(--cor-verde-principal);
+    color: var(--cor-texto-claro);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: filter 0.3s;
+}
+
+.junte-time .btn:hover {
+    filter: brightness(0.9);
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
+}
+
+main.container {
+    padding-top: 20px;
+}
+
+h1,
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 h1 {
     border-left: 5px solid var(--cor-verde-principal);
     padding-left: 10px;
     font-size: 2.5em;
-    margin-bottom: 10px;
 }
 
 h2 {
     font-size: 1.8em;
     color: #444;
-    margin-top: 40px;
-    margin-bottom: 20px;
 }
 
 .grade-membros {
@@ -87,14 +125,12 @@ h2 {
     box-sizing: border-box;
 }
 
-
 .card-frente {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    z-index: 2;
-    opacity: 1;
     padding: 15px;
+    z-index: 2;
 }
 
 .card-frente img {
@@ -107,33 +143,30 @@ h2 {
     z-index: 1;
 }
 
-/* BANNER COM O NOME MEMBRO*/
 .nome-membro-banner {
     position: relative;
     z-index: 2;
     width: 100%;
     height: 55px;
-    background-color: #0F5289;
+    background-color: var(--cor-azul-verso);
     color: var(--cor-texto-claro);
     border-radius: 5px;
-    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-bottom: 1px groove #487DB4
+    border-bottom: 1px groove var(--AZUL1);
 }
 
 .nome-membro-banner h3 {
     margin: 0;
     font-size: 1.1em;
-    font-weight: bold;
     text-transform: uppercase;
 }
 
 .nome-membro-banner p {
-    margin: 5px 0 0 0;
+    margin: 5px 0 0;
     font-size: 0.8em;
 }
 
@@ -143,26 +176,16 @@ h2 {
     padding: 20px;
     z-index: 1;
     opacity: 0;
-    position: relative;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-
-    color: var(--COR-DE-FUNDO, #F8F9FA);
-    text-align: center;
-
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .card-verso p {
     font-size: 0.9em;
+    margin: 0;
 }
 
 .card-membro:hover .card-frente {
@@ -192,9 +215,7 @@ h2 {
 }
 
 .lattes-link span {
-
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
     line-height: normal;
 }
 
@@ -202,28 +223,30 @@ h2 {
     color: var(--cor-amarelo-ver);
     font-size: 12px;
     font-weight: 600;
-    line-height: 110%;
+}
+
+.lattes-curriculo,
+.lattes-lattes {
+    color: var(--cor-texto-claro);
+    text-transform: uppercase;
+    line-height: 1;
 }
 
 .lattes-curriculo {
-    color: var(--cor-texto-claro);
     font-size: 10px;
     font-weight: 500;
-    line-height: 100%;
-    text-transform: uppercase;
 }
 
 .lattes-lattes {
-    color: var(--cor-texto-claro);
     font-size: 13px;
     font-weight: 900;
-    line-height: 100%;
-    text-transform: uppercase;
 }
+
 
 .footer {
     background-color: var(--cor-fundo-footer);
     color: var(--cor-texto-claro);
-    padding: 5px 5px;
+    padding: 20px;
     margin-top: 50px;
+    text-align: center;
 }
