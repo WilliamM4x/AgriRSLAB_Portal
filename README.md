@@ -104,6 +104,39 @@ A apresentação da Sprint 1 em vídeo pode ser acessada [aqui](https://youtu.be
 
 > RNF05. Hospedagem e domínio próprio (pode ser feito após protótipo).
 
+# Tabela descritiva das sprints com as colunas
+| ID     | Nome da Tarefa                                    | Pontos | Diciplina | Requisitos Atendidos|
+|--------|---------------------------------------------------|------- |-----------|---------------------|
+| **DD-001** | Definir identidade visual do site             | 5      | DD        | RNF06               |
+| **DD-002** | Criar protótipo da página inicial             | 8      | DD        | PA-01              |
+| **DD-003** | Cards em destaque na home (notícias, projetos, publicações). | 9      | DD        | PA-02               |
+| **DD-004** | Criar  página "Sobre" – objetivo e foco do laboratório.| 4      | DD        | PA-04               |
+| **DD-005** | Criar página de membros com nome, foto, função e descrição.| 6      | DD        | PA-05               |
+| **DD-006** | Criar  página de oportunidades (estágio, IC, pós-graduação).| 3      | DD        | PA-06               |
+| **DD-007** | Criar página de listagem de projetos (título, resumo, ano, status, equipe).| 1   |  DD| PA-07              |
+| **DD-008** | Criar página de publicação de notícias (título, data, imagem, texto).| 7     | DD | PA-08             |
+| **DD-009** | Criar protótipo de lista de publicações científicas.| 4      | DD | PA-09                      |
+| **DD-0010** | Criar protótipo de formulário de contato funcional. | 2     | DD | RF-010                      |
+| **DW-001** | Criar o arquivo HTML para página inicial        | 10      | Dw        | PA-01               |
+| **Dw-002** | Aplicar a estilização da página inicial em CSS  | 10      | Dw        | PA-01               |
+| **Dw-003** | Criar arquivo HTML para a página de notícias                | 9      | Dw        | PA-08               |
+| **Dw-004** | Aplicar a estilização da página de notícias em CSS                 | 9      | Dw        | PA-08               |
+| **Dw-005** | Criar o arquivo HTML para página de projetos | 3      | Dw        | PA-07               |
+| **Dw-006** | Criar a estilização para página de projetos | 3      | Dw        | PA-07               |
+| **Dw-007** | Criar o arquivo HTML para página de públicações | 3      | Dw        | PA-09               |
+| **Dw-008** | Criar a estilização para a página de publicações | 3      | Dw        | PA-09               |
+| **Dw-009** | Criar o arquivo HTML para página de sobre | 3      | Dw        | PA-04               |
+| **Dw-0010** | Criar a estilização da página sobre  | 3      | Dw        | PA-04               |
+| **Dw-0011** | Criar o arquivo HTML para a página membros  | 6      | Dw        | PA-05              |
+| **Dw-0012** | Criar a estilização  para a página membros  | 6      | Dw        | PA-05              |
+| **Dw-0013** | Criar o arquivo em HTML para a página de oportunidades  | 8     | Dw        | PA-06              |
+| **Dw-0013** | Criar a estilização para a página de oportunidades  | 8     | Dw        | PA-06              |
+| **ES-001** | Criar um estudo de caso do projeto  | 10      | ES        |                |
+| **Dw-002** | Criar diagrama de caso do projeto  | 10      | ES        |                |
+- Periodo da sprints
+- Link para a documentação da sprint
+- Link para o video no youtube do Incremento entregue
+=======
 ## Tabela descritiva das sprints com as colunas
 
 | ID       | Nome da Tarefa                                              | Pontos | Disciplina | Requisitos Atendidos |
