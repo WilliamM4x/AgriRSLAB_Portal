@@ -3,10 +3,6 @@
 <a id="topo"></a>
 
 
-| |
-|:--:|
-| ![Logo 404NotFound](<imagens/1.1Imagens Git/logo_404notfound.png>) |
-
 
 <p align="center">
   <img src="imagens/1.1Imagens%20Git/logo_404notfound.png"
@@ -44,8 +40,8 @@ Todas as entregas serão realizadas conforme os prazos acordados com o cliente. 
 
 | Sprint | Entrega        | Status | Relatório | Tasks |
 |-------:|----------------|:------:|:---------:|:-----:|
-| 1      | 📅 08/10/2025  | ✅    |   [Ver](docs/sprint1.md#backlog)
-        | —     |
+| 1      | 📅 08/10/2025  | ✅    |      [Ver Backlog](docs/sprint1.md#backlog)
+     | —     |
 | 2      | 📅 04/11/2025  | —      | —         | —     |
 | 3      | 📅 25/11/2025  | —      | —         | —     |
 
