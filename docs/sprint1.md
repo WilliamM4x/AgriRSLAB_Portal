@@ -3,9 +3,12 @@
 ## Protótipo do Site 👇:
 
 
-![Preview do Figma](https://raw.githubusercontent.com/404NotFound-ABP/AgriRSLAB_Portal/main/imagens/1.1Imagens%20Git/GifFigma.gif)
 
 
+
+<p align="center">
+  <img src="imagens/1.1Imagens%20Git/GifFigma.gif" alt="Preview do Figma" width="480">
+</p>
 
 
 
