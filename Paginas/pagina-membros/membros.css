@@ -250,9 +250,7 @@ h2 {
     font-weight: 900;
 }
 
-/* ================================= 
-   FOOTER
-==================================== */
+/* FOOTER */
 .footer {
     background-color: var(--cor-fundo-footer);
     color: var(--cor-texto-claro);
