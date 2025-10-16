@@ -3,7 +3,7 @@
 ## Protótipo do Site 👇:
 
 
-![Preview do Figma](<./imagens/1.1ImagensGit/GifFigma.gif>)
+![Preview do Figma](https://raw.githubusercontent.com/404NotFound-ABP/AgriRSLAB_Portal/main/imagens/1.1Imagens%20Git/GifFigma.gif)
 
 
 
