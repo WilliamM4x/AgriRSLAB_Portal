@@ -27,7 +27,7 @@ A criação de um website para o Laboratório de Sensoriamento Remoto Agrícola 
 O site do AgriRS está sendo desenvolvido pela **404NotFound** com o objetivo de centralizar informações essenciais do laboratório, ampliar sua visibilidade e facilitar o acesso do público às pesquisas, projetos e iniciativas. O portal reunirá perfis da equipe e áreas de atuação, publicações científicas, oportunidades (vagas, editais, estágios) e canais de contato.  
 Nossa meta é manter a comunidade atualizada sobre as atividades e descobertas do laboratório e aproximar estudantes, parceiros e a sociedade do conhecimento produzido.
 
-**FIGMA:** [Clique aqui](https://www.figma.com/design/lOquh5Rjs8hRw0eabhfMRE/AGRIRS?t=vFFsgACUIBLXJYoF-0)
+
 
 [↑ Voltar ao topo](#topo)
 
