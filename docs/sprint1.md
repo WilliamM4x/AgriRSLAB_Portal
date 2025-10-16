@@ -49,7 +49,7 @@ A equipe entregou para o cliente o prototipo do site, seguindo os requisitos par
 
 
 
-## Taks Sprint 1
+## Tasks Sprint 1
 
 Use esta tabela para acompanhar todas as tasks do projeto. Marque ⬜ para pendente e ✅ quando concluída.
 
