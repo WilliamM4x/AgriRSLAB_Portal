@@ -44,7 +44,8 @@ Todas as entregas serão realizadas conforme os prazos acordados com o cliente. 
 
 | Sprint | Entrega        | Status | Relatório | Tasks |
 |-------:|----------------|:------:|:---------:|:-----:|
-| 1      | 📅 08/10/2025  | ✅     | —         | —     |
+| 1      | 📅 08/10/2025  | ✅     | <a href="docs/sprint1.md">➡️ Abrir Sprint 1</a>
+     | —     |
 | 2      | 📅 04/11/2025  | —      | —         | —     |
 | 3      | 📅 25/11/2025  | —      | —         | —     |
 
