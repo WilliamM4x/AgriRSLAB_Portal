@@ -3,6 +3,9 @@
 ## Protótipo do Site 👇:
 
 
+![Preview do Figma](<./imagens/1.1ImagensGit/GifFigma.gif>)
+
+
 
 
 
