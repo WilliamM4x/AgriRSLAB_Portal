@@ -1,6 +1,6 @@
 # Sprint 1 
 
-## Protótipo do Site 👇:
+## Protótipo do Site 👇
 
 
 
@@ -71,10 +71,10 @@ Legenda IDs
 | DD 000     | Criação           | Ariana  | 01/10    | ✅      |
 | DD 000     | Criação                    | Pedro | 01/10     | ✅      |
 | DD 000     | Feito        | Joao      | 01/10    | ✅      |
-| DD 000     | Criaçãosks                                                           | Bruno Menezes      |01/10     | ✅      |
+| DD 000     | Criaçãosks                                                           | Joao     |01/10     | ✅      |
 | DD 000     | Implementação    |  Joao        | 01/10     | ✅      |
 | DD 000     | Criação                                  |  Joao   | 01/10    | ✅      |
-| DD 000     | Desenvolvimento                                                          | Luana Pinheiro     | 01/10     | ✅      |
+| DD 000     | Desenvolvimento                                                          | Joao   | 01/10     | ✅      |
 | DD 000     | Atualizand                                       | Joao        |01/10    | ✅      |
 | DD 000     | Levantamento dos requisitos        |  Joao        | 01/10    | ✅      |
 | DD 000     | Backlog                                                    |  Joao        | 01/10     |   ✅   |
