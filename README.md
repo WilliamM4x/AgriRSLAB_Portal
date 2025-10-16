@@ -3,6 +3,13 @@
 <a id="topo"></a>
 
 <p align="center">
+  <img src="imagens/1.1Imagens%20Git/logo_404notfound.png"
+       alt="Logo 404NotFound"
+       style="max-width: 260px; width: 60%; height: auto;">
+</p>
+
+
+<p align="center">
   <a href="#sobre">Sobre o Projeto</a> |
   <a href="#backlogs">Product Backlog</a> |
   <a href="#sprint">Entrega de Sprints</a> |
