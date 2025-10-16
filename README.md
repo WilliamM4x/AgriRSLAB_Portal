@@ -41,7 +41,7 @@ Todas as entregas serão realizadas conforme os prazos acordados com o cliente. 
 | Sprint | Entrega       | Status |                 Relatório                  | Tasks |
 |------: |---------------|:------:|:------------------------------------------:|:-----:|
 | 1      | 📅 08/10/2025 | ✅     | [Ver Backlog](docs/sprint1.md#backlog)     | —     |
-| 2      | 📅 04/11/2025 | 🚧    | [Ver Backlog](docs/sprint2.md#backlog)—                                          | —     |
+| 2      | 📅 04/11/2025 | 🚧  | [Ver Backlog](docs/sprint2.md#backlog)—                                          | —     |
 | 3      | 📅 25/11/2025 | —      | —                                          | —     |
 
 
