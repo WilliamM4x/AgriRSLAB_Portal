@@ -2,6 +2,12 @@
 
 <a id="topo"></a>
 
+
+| |
+|:--:|
+| ![Logo 404NotFound](<imagens/1.1Imagens Git/logo_404notfound.png>) |
+
+
 <p align="center">
   <img src="imagens/1.1Imagens%20Git/logo_404notfound.png"
        alt="Logo 404NotFound"
