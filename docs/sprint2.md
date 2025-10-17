@@ -50,22 +50,21 @@ Legenda IDs
 
 
 
-| ID       | Descrição                                                                                      | Autor               | Data     | Pontuação  | | Status  |
-|----------|------------------------------------------------------------------------------------------------|-------------------|----------|---------|
-| DD 000   | Criação                                              | Eloah     | 01/10   |       | | ✅      |
-| DD 000     | Criação           | Ariana  | 01/10    |       | | ✅      |
-| DD 000     | Criação                    | Pedro | 01/10     |       | | ✅      |
-| DD 000     | Feito        | Joao      | 01/10    |       | | ✅      |
-| DD 000     | Criaçãosks                                                           | Bruno Menezes      |01/10     |       | | ✅      |
-| DD 000     | Implementação    |  Joao        | 01/10     |       | | ✅      |
-| DD 000     | Criação                                  |  Joao   | 01/10    |       | | ✅      |
-| DD 000     | Desenvolvimento                                                          | Luana Pinheiro     | 01/10     |       | | ✅      |
-| DD 000     | Atualizand                                       | Joao        |01/10    |       | | ✅      |
-| DD 000     | Levantamento dos requisitos        |  Joao        | 01/10    |       | | ✅      |
-| DD 000     | Backlog                                                    |  Joao        | 01/10     |      | | ✅      |
-| DD 000     |  configuração do Git     |   Joao                   | 01/10          |       | | ✅      |
-| DD 000     | Modelagem                                                 |   Joao                |     01/10     |       | | ✅      |
-
+| ID      | Descrição                    | Autor           | Data  | Pontuação | Status |
+|---------|-----------------------------|-----------------|-------|-----------|--------|
+| DD 0001 | Criação                     | Eloah           | 01/10 |           | ✅     |
+| DD 0002 | Criação                     | Ariana          | 01/10 |           | ✅     |
+| DD 0003 | Criação                     | Pedro           | 01/10 |           | ✅     |
+| DD 0004 | Feito                       | João            | 01/10 |           | ✅     |
+| DD 0005 | Criação                    | Bruno Menezes   | 01/10 |           | ✅     |
+| DD 0006 | Implementação               | João            | 01/10 |           | ✅     |
+| DD 0007 | Criação                     | João            | 01/10 |           | ✅     |
+| DD 0008 | Desenvolvimento             | Luana Pinheiro  | 01/10 |           | ✅     |
+| DD 0009 | Atualizando                 | João            | 01/10 |           | ✅     |
+| DD 0010 | Levantamento dos requisitos | João            | 01/10 |           | ✅     |
+| DD 0011 | Backlog                     | João            | 01/10 |           | ✅     |
+| DD 0012 | Configuração do Git         | João            | 01/10 |           | ✅     |
+| DD 0013 | Modelagem                   | João            | 01/10 |           | ✅     |
 
 
 
