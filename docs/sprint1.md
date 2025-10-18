@@ -57,30 +57,31 @@ Legenda IDs
 
 | ID | Descrição                              |
 |----|----------------------------------------|
-| DD |                 |
-| DD |   |
-| DD |        |
-| DD |      |
-| DD |        |
+| DD |     ✅            |
 
 
 
-| ID       | Descrição                                                                                      | Autor               | Data     | Status  |
-|----------|------------------------------------------------------------------------------------------------|-------------------|----------|---------|
-| DD 000   | Criação                                              | Eloah     | 01/10   | ✅      |
-| DD 000     | Criação           | Ariana  | 01/10    | ✅      |
-| DD 000     | Criação                    | Pedro | 01/10     | ✅      |
-| DD 000     | Feito        | Joao      | 01/10    | ✅      |
-| DD 000     | Criaçãosks                                                           | Joao     |01/10     | ✅      |
-| DD 000     | Implementação    |  Joao        | 01/10     | ✅      |
-| DD 000     | Criação                                  |  Joao   | 01/10    | ✅      |
-| DD 000     | Desenvolvimento                                                          | Joao   | 01/10     | ✅      |
-| DD 000     | Atualizand                                       | Joao        |01/10    | ✅      |
-| DD 000     | Levantamento dos requisitos        |  Joao        | 01/10    | ✅      |
-| DD 000     | Backlog                                                    |  Joao        | 01/10     |   ✅   |
-| DD 000     |  configuração do Git     |   Joao                   | 01/10          | ✅      |
-| DD 000     | Modelagem                                                 |   Joao                |     01/10     | ✅      |
 
+| ID      | Tarefa                                                      | Autor | Data  | Pontuação | Disciplina | Requisitos Atendidos        | Status |
+|---------|-------------------------------------------------------------|-------|-------|-----------|------------|----------------------------|--------|
+| DD-001  | Definir identidade visual do site                           |  Eloah, Pedro, William, João L., João O., Ariana e Felipe.     |  16/09     | 10         | DD         | RNF06                      |    ✅    |
+| DD-002  | Criar protótipo da página home                              |  Pedro     |    18/09   | 8         | DD         | RF01                       |    ✅    |
+| DD-003  | Criar protótipo mobile (home)                               |  Pedro     |  02/10     | 4         | DD         | RF01                       |   ✅     |
+| DD-004  | Criar cards em destaque na home (notícias, projetos, publicações) | Pedro      |   22/09    | 9         | DD         | RF01.2                     |     ✅   |
+| DD-005  | Criar protótipo da página "Sobre" – objetivo e foco do laboratório |  João L.     |   24/09    | 4         | DD         | RF02/RF02.1/RF02.02        |   ✅     |
+| DD-006  | Criar protótipo mobile (sobre)                              |   Luiza    |  03/10     | 2         | DD         | RF02                       |    ✅    |
+| DD-007  | Criar protótipo da página de membros (nome, foto, função, descrição) |  Ariana     |  26/09     | 6         | DD         | RF03/RF03.1                |     ✅   |
+| DD-008  | Criar protótipo mobile (membros)                            |  Ariana     |   03/10    | 3         | DD         | RF03                       |    ✅    |
+| DD-009  | Criar protótipo da página de vagas                          |   Ariana    |   30/09    | 3         | DD         | RF04                       |    ✅    |
+| DD-010  | Criar protótipo mobile (vagas)                              |  Luiza     |    03/10   | 1         | DD         | RF04                       |    ✅    |
+| DD-011  | Criar protótipo da página de projetos                       |   Felipe    |    02/10   | 1         | DD         | RF05                       |     ✅   |
+| DD-012  | Criar protótipo mobile (projetos)                           |   Felipe    |       | 1         | DD         | RF05                       |    ✅    |
+| DD-013  | Criar protótipo da página de notícias                       |     William    |  18/09     | 7         | DD         | RF06                       |     ✅   |
+| DD-014  | Criar protótipo mobile (notícias)                           |  Eloah     |  03/10     | 3         | DD         | RF06                       |   ✅     |
+| DD-015  | Criar protótipo da página de publicações                    |   Eloah   |   18/09    | 4         | DD         | RF07                       |    ✅    |
+| DD-016  | Criar protótipo mobile (publicações)                        |    Eloah   |  30/09     | 2         | DD         | RF07                       |    ✅    |
+| DD-017  | Criar protótipo da página de contato                        |   Ariana    |   26/09    | 4         | DD         | RF08                       |    ✅    |
+| DD-018  | Criar protótipo mobile (contato)                            |    Luiza   |    03/10   | 2         | DD         | RF08                       |    ✅    |
 
 
 
