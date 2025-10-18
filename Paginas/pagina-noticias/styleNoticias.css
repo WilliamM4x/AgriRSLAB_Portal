@@ -1,0 +1,376 @@
+:root {
+  --azul-clarinho1: #DDF1FB;
+  --azul-clarinho2: #BCE2F7;
+  --verde-1: #36794E;
+  --verde-2: #55A357;
+  --marrom: #604639;
+  --azul1:#0F5289;
+  --azul2: #487DB4;
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+*{
+   font-family: "Montserrat", sans-serif;
+   /*Garante que o tamanho de elemento considera padding*/
+   box-sizing: border-box; 
+}
+
+/*====================FONTES==================================*/
+/* Montserrat - Google Fonts (weight 100-900) 
+Defina o  font-weight conforme:
+light (weight 300), regular (weight 400) , bold (weight 700), semibold (600)
+styles: normal ou italic
+*/
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Merriweather - Google Fonts (weight 400-900) 
+Defina o  font-weight conforme:
+light (weight 300), regular (weight 400) , bold (weight 700), semibold (600)
+styles: normal ou italic
+*/
+.merriweather{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/*====================== HEADER ======================*/
+
+.headerTop{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--verde-1);
+    align-items: center;
+    width: 100%;
+    height: 5vw;
+    padding: 0;
+    margin: 0;
+    min-height: 50px; /* minimo de diminuição*/
+}
+
+.imageLogo{
+  height: 90%;
+  aspect-ratio: 1 / 1;
+  margin: auto 15px auto 25px; 
+  width: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 0.5vw;
+  /* Impede esmagamento */
+  flex-shrink: 0; 
+}   
+
+.h1HEADER{
+    font-size: 30px;
+    color: white;
+    
+    font-size: clamp(20px, 2.5vw, 30px);
+    flex-shrink: 1;
+    white-space: nowrap;
+    
+    font-family: "Montserrat", sans-serif;
+}
+.decorationHeaderMenu{
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  transition: 0.5s;
+  /* Faz com que o link ocupe todo o espaço do item da lista  necessario em efeito de salto*/
+  display: block; 
+}
+
+/* Barra de pesquisa  TESTE RESPONSIVIDADE*/
+.searchBar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0 35px 0 auto;
+
+    flex-shrink: 1;
+    min-width: 150px;
+   
+}
+
+.searchBtn {
+  position: absolute; /* Posição absoluta em relação ao .search-container */
+  right: 5px; 
+  top: 50%;
+  transform: translateY(-50%); 
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  height: 35px; 
+  width: 35px; 
+}
+/* Elementos  nav  VER HEIGHT RESPONSIVO*/
+.headerBottom{
+    background-color: var(--verde-2);
+    height: 35px;
+    display: flex;  
+    align-items: center; 
+    width: 100%;
+}
+.navBar{
+  width: 100%;
+  display: flex;
+}
+.ulNav{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  width: 100%; 
+  align-items: center;
+  margin-left: 20px;
+}
+.item-direita {
+    margin-left: auto; 
+    margin-right: 50px;
+}
+.inputSearch{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5px;
+  margin-left: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  border-radius: 4px;
+}
+/* Efeito hover nos links do menu */
+.decorationHeaderMenu:hover{
+    text-decoration: solid underline #E0F9D5 2px;
+    opacity: 1;
+    transform: scale(1.2);
+}
+ul:hover  .decorationHeaderMenu:not(:hover){
+    opacity: 0.7;
+}
+/*=======================FOOTER===============================*/
+footer{
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.footerDad{
+  padding: 0;
+  background-color: var(--marrom);
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.logoFooterSection{
+  height: 12vh;
+  width: 12vh;
+  margin: 2vh 2vw 0 0;
+  flex-shrink: 0; 
+}
+.imageLogoFooter{
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 0 3px 10px var(--verde-2);
+}
+.footerSection{
+  position: relative;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.footerSection:first-child::after{
+  content: '';
+  background-color: white; 
+  height: 18vw;               
+  width: 1.5px;
+  position: absolute;
+  
+  right: 7%; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+.textFooter{
+  text-decoration: solid underline #55A357 2px;
+  font-size: 20px;
+}
+.emailLineFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline; 
+    gap: 10px; 
+}
+.mapa-estilizado {
+    border: 5px solid rgb(14, 12, 12);
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.buttonFooter{
+  width: 20%;
+  background-color: var(--verde-2);
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 10px 2px;
+  border-radius: 5px;
+  /* Sombra deslocada para o canto superior esquerdo */
+  box-shadow: -5px -5px 0 0 var(--verde-1); 
+}
+#Map{
+  display: flex;
+  padding: 6vh 5vw 0 0;
+  justify-content: center;
+}
+#AdmAcess{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+/*================MAIN===================MAIN=======================*/
+
+/* TITULO MÊS ===================*/
+.titleMonth{
+    display: inline-block;
+    position: relative;
+    margin-left: 5vw;
+    margin-bottom: 2vh;
+    padding-bottom: 0.5vh;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+/*pseudoelemento decorativo titel month*/
+.titleMonth::after {
+    content: ''; 
+
+    background-color: #55A357; 
+    height: 3px;               
+    width: 25vw;
+    position: absolute;
+    bottom: 0; 
+  
+    transform: translateX(-15%);
+}
+
+/* CARD NOTÍCIAS ================*/
+.cardNotice{
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--azul-clarinho2);
+    padding: 5px;
+    border-radius: 12px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 80vw;
+
+    margin-left: 40px;
+    margin-bottom: 10px;
+
+    /* pensar em responsividade aqui */
+    max-width: 1000px; 
+    min-width: 500px;
+}
+
+/* Imagem da notícia */
+.imageConteinerNotice{
+    width: 25%; /* Pensar responsivo */
+    height: 90%;
+    overflow: hidden; 
+    border-radius: 20px; 
+    flex-shrink: 0;
+}
+.imageNotice{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+}
+.cardBoxNotice{
+  flex-grow: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Título da notícia */
+.titleNotice{
+  font-size: 1.5em;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+/* Texto da notícia */
+.contentNotice{
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  padding: 5px;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  flex-grow: 1;
+}
+
+.cardBoxBottomTag{
+  /*padding s d i e*/
+  padding:3% 0 3% 0;
+  display: inline-flex;
+  width: 90%;
+}
+.dateEvent{
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 0.6em;
+}
+.tagEvent{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 0.6em;
+    background-color:var(--azul2);
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+.seeMore{
+  position: absolute;
+  top: 6%;
+  right: 4%;
+  color: Black;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.3em;
+  flex-shrink: 0;
+}
