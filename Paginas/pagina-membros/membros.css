@@ -51,7 +51,7 @@ body {
     font-size: 32px;
     font-weight: 600;
     margin-top: 0;
-    color: #000;
+    color: #333;
 }
 
 .junte-time h3 {
@@ -294,13 +294,13 @@ body {
 }
 
 .header .logo img {
-    height: 50px;
+    height: 20px;
 }
 
 .header nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #555;
+    color: #333;
     font-weight: bold;
 }
 
@@ -313,15 +313,16 @@ body {
 }
 
 .junte-time h2 {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: bold;
     margin-top: 0;
-    color: #000;
+    color: #333;
+    
 }
 
 .junte-time h3 {
-    font-size: 10px;
-    font-weight: 200;
+    font-size: 16px;
+    font-weight: 150;
 }
 
 .junte-time .btn {
@@ -355,7 +356,7 @@ main.container {
 
 /* ESTILO PARA O TEXTO DE APRESENTAÇÃO */
 .titulo-membros {
-    font-size: 1.8em;
+    font-size: 1.3em;
     color: #333;
     font-weight: 400;
     line-height: 1.4;
@@ -365,7 +366,7 @@ main.container {
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 1.3em;
     color: #444;
     padding-bottom: 5px;
     border-bottom: 2px solid var(--cor-verde-principal);
