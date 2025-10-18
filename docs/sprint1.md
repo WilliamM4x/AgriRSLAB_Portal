@@ -75,7 +75,7 @@ Legenda IDs
 | DD-009  | Criar protótipo da página de vagas                          |   Ariana    |   30/09    | 3         | DD         | RF04                       |    ✅    |
 | DD-010  | Criar protótipo mobile (vagas)                              |  Luiza     |    03/10   | 1         | DD         | RF04                       |    ✅    |
 | DD-011  | Criar protótipo da página de projetos                       |   Felipe    |    02/10   | 1         | DD         | RF05                       |     ✅   |
-| DD-012  | Criar protótipo mobile (projetos)                           |   Felipe    |       | 1         | DD         | RF05                       |    ✅    |
+| DD-012  | Criar protótipo mobile (projetos)                           |   Felipe    |   03/10    | 1         | DD         | RF05                       |    ✅    |
 | DD-013  | Criar protótipo da página de notícias                       |     William    |  18/09     | 7         | DD         | RF06                       |     ✅   |
 | DD-014  | Criar protótipo mobile (notícias)                           |  Eloah     |  03/10     | 3         | DD         | RF06                       |   ✅     |
 | DD-015  | Criar protótipo da página de publicações                    |   Eloah   |   18/09    | 4         | DD         | RF07                       |    ✅    |
