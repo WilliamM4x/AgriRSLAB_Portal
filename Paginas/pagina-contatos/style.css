@@ -115,7 +115,7 @@ body {
 
 /* Padronização dos SVGs de redes sociais  */
 .contato-redes-sociais {
-  height: 100px;
+  height: 70px;
 }
 
 .contato-redes-sociais path,
@@ -125,7 +125,7 @@ body {
 .contato-redes-sociais rect {
 
   stroke: #55A357;
-  stroke-width: 4px;
+  stroke-width: 3px;
   /* grossura visual igual para ambos */
   stroke-linecap: round;
   stroke-linejoin: round;
