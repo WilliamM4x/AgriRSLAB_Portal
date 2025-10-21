@@ -1,4 +1,3 @@
-/* Variáveis para cores (opcional, mas recomendado para consistência) */
 :root {
     --vdEscuro: #36794E;
     /* verde escuro */
@@ -19,11 +18,9 @@
 
     --cor-sombra: rgba(0, 0, 0, 0.3);
     /* Sombra suave */
-
-    --fonteTitulo:
 }
 
-.body1 {
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,112 +29,103 @@
     background-color: var(--fundo);
 }
 
-.container-projetos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 30px;
-    gap: 30px;
-    /* Adiciona um espaço de 30px entre os cards */
+/* Container Principal (Galeria) */
+.projetos-galeria {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    /* Espaço entre os itens */
+    padding: 20px;
 }
 
-.card-projeto {
-    width: 300px;
-    /* Largura fixa, ajuste conforme necessário */
-    background-color: var(--vdClaro);
-    border-radius: 12px;
-    /* Sombra suave e um pouco de profundidade, como no exemplo */
-    box-shadow: 0 10px 20px var(--vdEscuro), 0 6px 6px var(--vdEscuro);
+/* Estilo Básico dos Itens */
+.item-galeria {
+    background: rgba(0, 0, 0, 0.1);
+    position: relative;
     overflow: hidden;
-    /* Garante que a imagem siga o border-radius superior */
-}
-
-/* Estilo para a imagem */
-.card-imagem {
-    padding: 15px;
-    height: 200px;
-    /* Define uma altura fixa para a área da imagem */
-    display: flex;
-    /* Ajuda a centralizar a imagem se ela for menor */
-    align-items: center;
-    /* Padding interno para a borda verde ao redor da imagem */
-}
-
-.card-imagem img {
-    width: 100%;
-    display: block;
-    border-radius: 8px;
-    border: 1.5px solid #000000;
-    /* Borda arredondada na imagem interna */
-    /* Garante que a imagem mantenha o aspecto visual do exemplo (cobertura total) */
-    object-fit: cover;
-    height: 100%;
-    /* Faz a imagem ocupar a altura do contêiner .card-imagem */
-}
-
-/* Estilo para o conteúdo (título e resumo) */
-.card-conteudo {
-    /* dir. bot. esq.*/
-    padding: 0 20px 20px 20px;
-    /* Padding ao redor do texto e do botão */
-    color: var(--fundo);
-}
-
-.card-titulo {
-    font-size: 1.25rem;
-    font-family: 'Montserrat', sans-serif;
-    /* Adicionado do HTML */
-    /* Tamanho do título */
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 10px;
-    line-height: 1.3;
-}
-
-.card-resumo {
-    font-size: 0.95rem;
-    font-family: 'Merriweather', serif;
-    /* Adicionado do HTML */
-    /* Tamanho do resumo */
-    margin-bottom: 25px;
-    line-height: 1.5;
-    /* Opacidade para simular o texto "mais claro" do resumo */
-    opacity: 0.9;
-}
-
-/* Estilo para o botão */
-.card-botao {
-    display: block;
-    /* Ocupa a largura total */
-    width: max-content;
-    /* Ocupa apenas o espaço necessário */
-    margin-left: auto;
-    /* Alinha o botão à direita */
-    padding: 10px 25px;
-    background-color: var(--vdClarinho);
-    color: var(--vdEscuro);
-    /* Cor do texto no botão é o verde escuro do card */
+    /* Garante que a imagem não saia do limite */
     text-decoration: none;
-    /* Remove o sublinhado */
-    border-radius: 6px;
-    font-weight: bold;
-    font-size: 1rem;
+    color: white;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--vdClaro);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8) ;
+    /* Adiciona uma sombra ao texto para melhor legibilidade */
+}
+
+.item-galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* Garante que a imagem seja exibida por completo, sem cortes */
+    display: block;
+    /* Melhora o comportamento padrão da imagem */
+    transition: transform 0.3s ease;
+    /* Efeito de zoom no hover */
+}
+
+/* Efeito de Zoom (opcional) */
+.item-galeria:hover img {
+    transform: scale(1.02);
+}
+
+/* Estilo do Item em Destaque (Maior) */
+.item-destaque {
+    /* Faz o item ocupar 2 colunas */
+    grid-column: 1 / span 2;
+    border-radius: clamp(10px, 1.25vw, 20px);
+    /* Você pode ajustar o grid-row se quiser que ele ocupe mais linhas também */
+}
+
+/* Estilo do Overlay de Texto (Legenda) */
+.overlay-texto {
+    position: absolute;
+    top: 50%;
+    /* Alterado de bottom para top */
+    left: 0;
+    /* Ocupa toda a largura */
+    right: 0;
+    /* Ocupa toda a largura */
+    background: rgba(0, 0, 0, 0.4);
+    /* Fundo semi-transparente */
     text-align: center;
-    transition: background-color 0.3s ease;
-    /* Transição suave para o hover */
-    /* Sombra interna sutil para dar o efeito de "elevado" */
-    box-shadow: inset 0 -2px 0 rgba(0, 0.5, 0, 0.5);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: clamp(1.2rem, 4vw, 2em);
+    display: flex;
+    /* Adicionado para usar flexbox */
+    justify-content: center;
+    /* Adicionado para centralizar horizontalmente */
+    align-items: center;
+    /* Alterado para centralizar verticalmente */
+    padding: 15px 10%;
+    /* Adiciona espaçamento vertical e horizontal */
+    transform: translateY(-50%);
+    /* Adicionado para centralizar verticalmente de forma precisa */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    /* Adiciona uma sombra ao texto para melhor legibilidade */
 }
 
-/* Efeito de hover no botão */
-.card-botao:hover {
-    background-color: var(--vdEscuro);
-    /* Um tom um pouco mais claro no hover */
-    color: var(--vdClarinho);
+/* Responsividade: Exemplo para telas menores */
+@media (max-width: 768px) {
+    .projetos-galeria {
+        /* Em telas menores, todos os itens (incluindo o destaque) ocupam uma única coluna */
+        grid-template-columns: 1fr;
+    }
+
+    .item-destaque {
+        /* Reseta para 1 coluna em telas menores */
+        grid-column: 1 / span 1;
+    }
 }
 
-
-/* pagina de cada projeto */
+/* --------------------------------------------------------------------------- */
+/* página de detalhes do projeto */
 
 /* Estilos CSS */
 .detalhes_projetos {
