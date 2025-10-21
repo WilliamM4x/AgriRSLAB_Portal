@@ -136,14 +136,35 @@ main.container-membros {
 }
 
 /* ESTILO PARA O TEXTO DE APRESENTAÇÃO */
-.titulo-membros {
-    font-size: 1.8em;
+/* Centraliza o título e dá mais espaço de cima */
+#titulo-membros {
+    font-size: 1.5em;
     color: var(--cor-texto-escuro);
-    font-weight: 400;
-    line-height: 1.4;
-    margin-bottom: 50px;
-    border-left: none;
-    padding-left: 0;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: 40px;  /* Aumenta o espaço de cima */
+    text-align: center; /* Centraliza */
+
+    /* Remove linhas (como falamos antes) */
+    text-decoration: none;
+    border-bottom: none; 
+}
+
+/* Centraliza o parágrafo que vem logo depois do título */
+#titulo-membros + p {
+    text-align: center;
+    max-width: 600px; /* Limita a largura do texto */
+    margin-left: auto;  /* Centraliza o bloco do parágrafo */
+    margin-right: auto; /* Centraliza o bloco do parágrafo */
+    margin-bottom: 40px; /* Dá espaço antes de "Coordenador" */
+
+}
+
+#subtitulo-membros {
+    font-size: 1.2em;
+    color: var(--cor-texto-escuro);
+    font-weight: 300;
+    margin-bottom: 40px;
 }
 
 h2 {
@@ -153,6 +174,7 @@ h2 {
     border-bottom: 1px solid var(--cor-verde-principal);
     margin-bottom: 20px;
     margin-top: 20px;
+        text-align: center; 
 }
 
 .grade-membros {
@@ -427,15 +449,14 @@ h2 {
     }
 
     /* ESTILO PARA O TEXTO DE APRESENTAÇÃO */
-    .titulo-membros {
-        font-size: 1.3em;
-        color: var(--cor-texto-escuro);
-        font-weight: 400;
-        line-height: 1.4;
-        margin-bottom: 50px;
-        border-left: none;
-        padding-left: 0;
-    }
+#titulo-membros {
+    font-size: 1.5em;
+    color: var(--cor-texto-escuro);
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: none;
+}
 
     h2 {
         font-size: 1.3em;
