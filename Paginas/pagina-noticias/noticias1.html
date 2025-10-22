@@ -2,7 +2,7 @@
 <html lang="pt-BR">
     <head>
         <meta charset="utf-8">
-        <title>Notícias AgrRSLAB</title>
+        <title>Notícias Agrirslab</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--responsividade-->
 
         <!-- Linkando o CSS -->
@@ -61,8 +61,26 @@
         </header>
 
         <main>
+       
+        <div id="FillterYearSelection" class="filterYearSelection">
+            <label for="YearSelection" class="labelYearSelection">Selecione o ano:</label>    
+            <select 
+            name="YearSelection" 
+            id="YearSelection" 
+            class="yearSelection"
+            >
+                <option value="2025" selected>2025</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+            </select>
+        </div>    
+       
             
-        <h2 id="Mes" class="titleMonth">Mês</h2>
+        <h2 id="Mes" class="titleMonth">Janeiro</h2>
+
         <article id="CardNotice" class="cardNotice">
             <div 
             id="imageConteinerNotice" 
@@ -78,13 +96,56 @@
                     sdljfbasdfaksdfkasdgfkjasdgfkagsdkjbskdxvcksbxvcksdkagsdkfgasdkg
                 </p>
                 <div id="CardBoxBottomTag" class="cardBoxBottomTag">
-                    <span class="dateEvent"><time datetime="2025-05-08">21/03/25</time></span>
+                    <span class="dateEvent"><time datetime="2025-05-08">21/01/25</time></span>
                     <span class="tagEvent">Curso</span>
                 </div>
             </div>
-
             <a id="SeeMore" href="#" class="seeMore">Ver Detalhes</a>
         </article>
+
+        <h2 id="Mes" class="titleMonth">Fevereiro</h2>
+        
+        <article id="CardNotice" class="cardNotice">
+            <div 
+            id="imageConteinerNotice" 
+            class="imageConteinerNotice">
+                <img class="imageNotice" src="imagens/imagetest.png" alt="imagem noticia"></img>
+            </div>
+            <div id="CardBoxNotice" class="cardBoxNotice">
+                <h3 id="TitleNotice" class="titleNotice">Seminário</h3>
+                <p class="contentNotice">
+                    Texto para descrição e informações sobre a notícia.
+                </p>
+                <div id="CardBoxBottomTag" class="cardBoxBottomTag">
+                    <span class="dateEvent"><time datetime="2025-05-08">22/02/25</time></span>
+                    <span class="tagEvent">Defesa</span>
+                </div>
+            </div>
+            <a id="SeeMore" href="#" class="seeMore">Ver Detalhes</a>
+        </article>
+
+        <article id="CardNotice" class="cardNotice">
+            <div 
+            id="imageConteinerNotice" 
+            class="imageConteinerNotice">
+                <img class="imageNotice" src="imagens/imagetest.png" alt="imagem noticia"></img>
+            </div>
+            <div id="CardBoxNotice" class="cardBoxNotice">
+                <h3 id="TitleNotice" class="titleNotice">Defesa de mestrado</h3>
+                <p class="contentNotice">
+                    Texto para descrição e informações sobre a notícia.
+                </p>
+                <div id="CardBoxBottomTag" class="cardBoxBottomTag">
+                    <span class="dateEvent"><time datetime="2025-05-08">28/02/25</time></span>
+                    <span class="tagEvent">Informativo</span>
+                </div>
+            </div>
+            <a id="SeeMore" href="#" class="seeMore">Ver Detalhes</a>
+        </article>
+
+        <div class="container-ver-mais">
+            <a href="#" class="btn-ver-mais">Ver mais</a>
+        </div>
 
         </main>
 
@@ -113,7 +174,8 @@
                     rel="noopener noreferrer">
                         <svg 
                             width="98" 
-                            height="96" 
+                            height="98" 
+                            viewBox="0 0 98 98"
                             xmlns="http://www.w3.org/2000/svg">
                             <path 
                                 fill-rule="evenodd" 
@@ -156,7 +218,7 @@
                 </div>
             </div>
             <div id="FooterSectionTwo"class="footerSection">
-                <p class="textFooter">Nossas localização:</p>
+                <p class="textFooter">Nossa localização:</p>
                 <p style="font-size: 15px">
                     Av. dos Astronautas, 1758 - Jardim da Granja, São José dos Campos - SP, 12227-010
                 </p>

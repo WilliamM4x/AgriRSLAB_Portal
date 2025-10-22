@@ -232,7 +232,7 @@ footer{
     gap: 10px; 
 }
 .mapa-estilizado {
-  border: none;
+    border: 5px solid rgb(14, 12, 12);
     border-radius: 10px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 
@@ -241,7 +241,7 @@ footer{
     height: 250px;
 }
 .buttonFooter{
-  width: 30%;
+  width: 20%;
   background-color: var(--verde-2);
   border: none;
   color: white;
@@ -282,216 +282,178 @@ footer{
     align-items: center;
     gap: 15px; 
   }
+/*================MAIN===================MAIN=======================*/
 
-  /* ==========================================================================
+
+/* ==========================================================================
    MEDIA QUERIES PARA RESPONSIVIDADE
    ========================================================================== */
 
 /* =============== TELAS GRANDES (1200px E ACIMA) =============== */
 @media (min-width: 1200px) {
-main {
+  /* Você pode aumentar a largura máxima de alguns containers se quiser */
+  main {
+    /* Exemplo: Aumentar um pouco o padding lateral */
+    padding: 30px 80px 30px 40px; 
+  }
 
-  padding: 30px 80px 30px 40px; 
-}
-.cardNotice {
- 
-  max-width: 1100px; 
+  .footerDad {
+      /* Exemplo: Aumentar um pouco o padding */
+      padding: 50px 5%;
+  }
+
+  /* Outros ajustes específicos para telas bem largas podem vir aqui */
 }
 
-.footerDad {
-   
-    padding: 50px 5%;
-}
 
-}
 /* =============== TABLET (768px ATÉ 1199px) =============== */
 @media (max-width: 1199px) {
-   
-main {
-    padding: 20px 30px 20px 20px; /* Reduz padding lateral */
+    main {
+        padding: 20px 30px 20px 20px; /* Reduz padding lateral */
+    }
+
+    .ulNav {
+        gap: 15px; /* Diminui espaço entre links da nav */
+    }
+
+    .item-direita,
+    .searchBar {
+        margin-right: 30px; /* Diminui margem direita */
+    }
+
+    .footerDad {
+        padding: 30px 2%; /* Reduz padding do footer */
+        min-height: auto; /* Altura automática */
+    }
+
+    .footerSection {
+        width: 48%; /* Ajusta largura das seções do footer */
+        padding: 0 10px;
+    }
+
+    .footerSection:first-child::after {
+        height: 70%; /* Ajusta altura da linha */
+        right: -2%; /* Ajusta posição da linha */
+    }
+
+    #Map {
+        padding: 20px 0 0 0; /* Remove padding lateral do mapa */
+    }
+
+    .buttonFooter {
+        width: 30%; /* Botão um pouco maior */
+    }
 }
 
-.ulNav {
-    gap: 15px; 
-}
 
-.item-direita,
-.searchBar {
-    margin-right: 30px; 
-}
-
-.footerDad {
-    padding: 30px 2%;
-    min-height: auto; 
-}
-
-.footerSection {
-    width: 48%; 
-    padding: 0 10px;
-}
-
-.footerSection:first-child::after {
-    height: 70%; 
-    right: -2%; 
-}
-
-#Map {
-    padding: 20px 0 0 0; 
-}
-
-.buttonFooter {
-    width: 30%; 
-}
-}
 /* =============== MOBILE (ABAIXO DE 768px) =============== */
 @media (max-width: 767px) {
+  /* --- HEADER --- */
+  .headerTop {
+      height: auto; /* Altura automática */
+      min-height: 60px; /* Mantém um mínimo */
+      flex-wrap: wrap; /* Permite que itens quebrem linha se necessário */
+      padding: 5px 0;
+  }
 
-/* --- HEADER --- */
-.headerTop {
-  height: 20vh; 
-  min-height: 60px; 
-  flex-wrap: wrap;
-  padding: 5px 0;
-}
+  .imageLogo {
+      height: 50px; /* Logo menor */
+      width: 50px;
+      margin: auto 10px auto 15px; /* Ajusta margens */
+  }
 
-.imageLogo {
-  height: 75%; 
-  aspect-ratio: 1 / 1;
-  margin: auto 10px auto 15px;
-}
-.headerBottom {
-    height: auto; /* Altura automática para a nova fonte */
-    padding: 8px 0; /* Um pouco de espaço vertical */
-    
-    /* Propriedades de Scroll (movidas do .ulNav) */
-    overflow-x: auto;  
-    overflow-y: hidden;
-    scrollbar-width: none; 
-    -ms-overflow-style: none; 
+  .h1HEADER {
+      font-size: clamp(18px, 5vw, 24px); /* Fonte do título menor */
+      margin-right: auto; /* Empurra searchBar para baixo se quebrar linha */
+  }
 
-}
-.h1HEADER {
-    font-size: clamp(18px, 5vw, 24px); 
-}
+  .searchBar {
+      margin: 5px 15px 5px auto; /* Ajusta margem e permite quebra */
+      min-width: 120px;
+      width: calc(100% - 30px); /* Ocupa quase toda a largura se quebrar */
+      order: 3; /* Força a ir para baixo se quebrar linha */
+  }
 
-.searchBar {
-    margin: 10px 15px 5px 15px;
-    min-width: 120px;
-    width: auto; /* Deixa o flex-basis cuidar da largura */
-    order: 3; 
-}
+  .headerBottom {
+      height: auto; /* Altura automática */
+      padding: 5px 0;
+  }
 
-.headerBottom::-webkit-scrollbar {
-  display: none; /* sumir a barra scroll no chrome */
-}
+  .ulNav {
+      flex-wrap: wrap; /* Permite que links quebrem linha */
+      justify-content: center; /* Centraliza links */
+      gap: 10px 15px; /* Espaço vertical e horizontal */
+      margin-left: 0; /* Remove margem esquerda */
+      padding: 0 10px; /* Adiciona padding lateral */
+  }
 
-.ulNav {
- 
-  gap: 10px 15px; /* Espaço vertical e horizontal */
-  margin-left: 0; /* Remove margem esquerda */
-  padding: 0 40px;
-  
-  gap: 20px;
+  .ulNav li:first-child {
+      padding-left: 0; /* Remove padding especial do primeiro item */
+  }
 
-  scroll-snap-type: x mandatory;
+  .item-direita {
+      margin: 0; /* Remove margens especiais */
+  }
 
-  padding: 0 45px;
-
-  display: flex;
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
-
-  width: auto;
-  white-space: nowrap;
-
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-
-}
-
-.ulNav::-webkit-scrollbar {
-    display: none;
-}
-
-.ulNav li {
-    /* Diz para CADA item da lista "travar" no centro */
-    scroll-snap-align: center;
-}
-
-.ulNav li:first-child {
-  padding-left: 0;
-} 
-
-.ulNav li {
-    scroll-snap-align: center;
-}
-
-/* Aumenta a fonte e o peso dos links no menu */
-.decorationHeaderMenu {
-    font-size: 1.15rem; 
-    font-weight: 400;   
-}
-
-.item-direita {
-    margin: 0; 
-}
 
 /* --- MAIN --- */
-main {
-    padding: 15px; 
-}
-/* --- FOOTER --- */
-.footerDad {
-    flex-direction: column; 
-    min-height: auto;
-    padding: 30px 15px; 
-    align-items: center;
-    gap: 30px; 
-}
-.footerSection {
-    width: 95%; 
-    max-width: unset; 
-    height: auto; 
-    align-items: center; 
-    text-align: center;
-    padding: 0; 
-}
+  main {
+      padding: 15px; /* Padding geral menor */
+  }
 
-.logoFooterSection {
-    align-self: center; 
-    margin: 0 0 15px 0; 
-}
 
-.footerSection:first-child::after {
-    display: none; 
-}
+  /* --- FOOTER --- */
+  .footerDad {
+      flex-direction: column; /* Empilha seções do footer */
+      min-height: auto; /* Altura automática */
+      padding: 30px 15px; /* Padding vertical e horizontal */
+      align-items: center; /* Centraliza seções */
+      gap: 30px; /* Espaço entre as seções empilhadas */
+  }
 
-.emailLineFooter {
-    justify-content: center; 
-}
+  .footerSection {
+      width: 95%; /* Seções ocupam quase toda a largura */
+      max-width: unset; /* Remove largura máxima */
+      height: auto; /* Altura automática */
+      align-items: center; /* Centraliza conteúdo interno */
+      text-align: center; /* Centraliza texto */
+      padding: 0; /* Remove padding lateral (já tem no pai) */
+  }
+  
+  .logoFooterSection {
+      align-self: center; /* Garante que a logo fique centralizada */
+      margin: 0 0 15px 0; /* Apenas margem abaixo */
+  }
 
-.imagensFooter {
-    justify-content: center; 
-    padding: 10px 0;
-}
+  .footerSection:first-child::after {
+      display: none; /* Esconde linha divisória */
+  }
 
-.buttonFooter {
-    width: 50%; 
-    min-width: 150px;
-}
+  .emailLineFooter {
+      justify-content: center; /* Centraliza email */
+  }
+  
+  .imagensFooter {
+      justify-content: center; /* Centraliza ícones */
+      padding: 10px 0;
+  }
+
+  .buttonFooter {
+      width: 50%; /* Botão maior */
+      min-width: 150px;
+  }
 
   #Map {
-      padding: 20px 0 0 0;
+      padding: 20px 0 0 0; /* Remove padding */
       width: 100%;
   }
   
   .mapa-estilizado {
-    max-width: 100%; 
+    max-width: 100%; /* Mapa ocupa largura total */
   }
 
   #AdmAcess {
-      align-self: center; 
+      align-self: center; /* Centraliza link */
       margin-top: 20px;
   }
 }
